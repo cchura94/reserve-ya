@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::Resource('/contacto', 'ContactoController');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
