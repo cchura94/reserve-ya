@@ -6,6 +6,7 @@
 </head>
 <body>
 	<h1>MODIFICADO------------------</h1>
+	<h2>MODIFICACION DESDE MI RAMA</h2>
 	<h1>Crear nuevo Contacto</h1>
 	<form action="{{ Route('contacto.store') }}" method="post">
 		@csrf
