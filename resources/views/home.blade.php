@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    Modificado por cristian ramaCris
                 </div>
             </div>
         </div>
